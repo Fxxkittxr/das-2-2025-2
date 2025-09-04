@@ -51,3 +51,22 @@
     - Disponibilidade e recursos do serviço: Certas regiões podem ter serviços ou recursos mais recentes.
     - Custo-benefício: Os custos de armazenamento e transferência de dados podem variar entre as regiões.
 - Amazon S3 Inventário do Bucket: Ferramenta para gerenciar de forma automatizada e detalhada o conteúdo de um bucket. Ele gera relatórios com a lista de todos os objetos e seus metadados, o que ajuda a organizar e auditar o que está armazenado.
+
+## Aula 03/09
+- Diferença entre S3 e EC2
+    - s3 site estatico, entrega a interface
+    - EC2 site dinamico, entrega o backend
+
+- VMs - Amazon elastic compute cloud
+
+- VPS - Amazon Lightsail
+
+- PaaS - AWS Elastic Beanstalk
+
+- Serverless
+  - AWS Lampda
+  - AWS Fargate
+    
+- Containers
+  - Amazon Elastic Kubernetes Services
+  - Amazon Elastic Container Service
