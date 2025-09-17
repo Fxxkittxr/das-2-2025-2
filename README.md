@@ -83,4 +83,4 @@
   - Assim como as instâncias EC2 Linux, você pode lançar instâncias EC2 com o sistema operacional Windows Server, usando-as para rodar aplicações Microsoft.
 
 - Lab: 
-  -  Introdução ao Amazon EFS: Este laboratório prático explora como criar e gerenciar um sistema de arquivos EFS, e como montá-lo em uma ou mais instâncias EC2 para compartilhar dados.
+  -  Fazer: [Guided lab: Introducing Amazon Elastic File System (Amazon EFS)](https://awsacademy.instructure.com/courses/129676/assignments/1485164?module_item_id=12389242)
