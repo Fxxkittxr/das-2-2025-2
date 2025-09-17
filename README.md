@@ -53,20 +53,34 @@
 - Amazon S3 Inventário do Bucket: Ferramenta para gerenciar de forma automatizada e detalhada o conteúdo de um bucket. Ele gera relatórios com a lista de todos os objetos e seus metadados, o que ajuda a organizar e auditar o que está armazenado.
 
 ## Aula 03/09
-- Diferença entre S3 e EC2
-    - s3 site estatico, entrega a interface
-    - EC2 site dinamico, entrega o backend
+- Serviços Computacionais da AWS:
+    - Serviços que permitem rodar aplicações e processar dados na nuvem, variando do controle total de servidores virtuais (IaaS) até soluções completamente gerenciadas (Serverless).
 
-- VMs - Amazon elastic compute cloud
+- Amazon Elastic Compute Cloud (EC2):
+    - É o serviço de IaaS (Infraestrutura como Serviço) da AWS. Ele permite alugar servidores virtuais (instâncias) para rodar sistemas operacionais e aplicações. É ideal quando você precisa de controle total sobre o ambiente de computação.
 
-- VPS - Amazon Lightsail
+- Amazon Machine Images (AMI):
+    - Um template pré-configurado que contém o sistema operacional, software e configurações para lançar uma instância EC2. É como uma "imagem" de um servidor pronta para ser usada.
 
-- PaaS - AWS Elastic Beanstalk
+- Tipos de Instâncias:
+    - As instâncias EC2 são classificadas por famílias, otimizadas para diferentes cargas de trabalho (computação intensiva, memória, armazenamento, etc.). Por exemplo, as instâncias t são para uso geral e as c para cargas de trabalho de computação.
 
-- Serverless
-  - AWS Lampda
-  - AWS Fargate
+- Tipos de Storage (EBS/Instance Store):
+  - Amazon Elastic Block Store (EBS): Oferece volumes de armazenamento em blocos persistentes que podem ser anexados a uma instância EC2. Os dados persistem mesmo se a instância for encerrada.
+  - Instance Store: Armazenamento temporário e de alta performance que é fisicamente conectado ao servidor host da instância EC2. Os dados são perdidos quando a instância é interrompida ou encerrada.
     
-- Containers
-  - Amazon Elastic Kubernetes Services
-  - Amazon Elastic Container Service
+- Acesso via SSH: 
+  - O Secure Shell (SSH) é um protocolo de rede usado para acessar e gerenciar instâncias EC2 Linux de forma segura através da linha de comando. Para instâncias Windows, o acesso geralmente é feito via RDP (Remote Desktop Protocol).
+
+
+## Aula 10/09
+
+- Elastic File System (EFS) / FSx:
+  - Amazon EFS: Um serviço de armazenamento de arquivos escalável e sem servidor para instâncias EC2. Ele é projetado para ser compartilhado por várias instâncias ao mesmo tempo, ideal para cargas de trabalho que precisam de acesso a arquivos compartilhados.
+  - Amazon FSx: Oferece sistemas de arquivos nativos da Microsoft (FSx for Windows File Server) e do Lustre (FSx for Lustre) na nuvem, facilitando a migração de workloads que dependem desses sistemas.
+
+- EC2 Windows: 
+  - Assim como as instâncias EC2 Linux, você pode lançar instâncias EC2 com o sistema operacional Windows Server, usando-as para rodar aplicações Microsoft.
+
+- Lab: 
+  -  Introdução ao Amazon EFS: Este laboratório prático explora como criar e gerenciar um sistema de arquivos EFS, e como montá-lo em uma ou mais instâncias EC2 para compartilhar dados.
