@@ -84,3 +84,35 @@
 
 - Lab: 
   -  Fazer: [Guided lab: Introducing Amazon Elastic File System (Amazon EFS)](https://awsacademy.instructure.com/courses/129676/assignments/1485164?module_item_id=12389242)
+
+
+## Aula 17/09
+
+- EC2:
+  - Serviço de computação que permite lançar e gerenciar instâncias virtuais na AWS, com flexibilidade de configuração e escalabilidade.
+
+- User Data:
+  - Script que pode ser configurado na inicialização da instância para automatizar tarefas, como instalação de pacotes ou execução de comandos.
+
+- Instance Metadata:
+  - Informações acessíveis de dentro da instância, como ID, tipo, região e credenciais temporárias.
+
+- Placement:
+  - Define como as instâncias EC2 são fisicamente distribuídas dentro das zonas de disponibilidade para melhorar redundância, latência ou performance.
+
+- VPC (Virtual Private Cloud):
+  - Rede virtual isolada na AWS, onde você pode configurar endereçamento IP, sub-redes, tabelas de rotas e gateways.
+
+- Subnets Públicas e Privadas:
+  - Subnet pública: acessível diretamente pela internet.
+  - Subnet privada: isolada da internet, geralmente usada para recursos internos.
+
+- Security Group e NACL:
+  - Security Group: Firewall em nível de instância, que controla tráfego de entrada e saída.
+  - Network ACL (NACL): Firewall em nível de subnet, que controla tráfego de rede entre sub-redes.
+
+- VPN Site-to-Site:
+  - Conexão segura entre sua rede local (on-premises) e a VPC na AWS.
+
+- Peering:
+  - Conexão entre duas VPCs diferentes para permitir comunicação entre recursos, sem precisar de VPN ou internet.
